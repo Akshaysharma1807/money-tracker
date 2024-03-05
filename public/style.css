@@ -1,0 +1,96 @@
+body {
+    min-height: 100vh;
+    background-image: url('image.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif; /* Default font family */
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 50px 0;
+}
+
+.col-md-6 {
+    padding: 20px;
+}
+
+.form-label {
+    font-size: 1.1rem; /* Label font size */
+}
+
+.form-control {
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 12px; /* Padding */
+    font-size: 1rem; /* Input font size */
+}
+
+.btn {
+    background-color: #5B7FFF; /* Blue button background color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Cursor on hover */
+    font-size: 1rem; /* Button font size */
+}
+
+.btn:hover {
+    background-color: #4769D3; /* Darker blue on hover */
+}
+
+.text-center {
+    text-align: center; /* Center align text */
+}
+
+.text-dark {
+    color: #333; /* Dark text color */
+}
+
+.text-white {
+    color: #fff; /* White text color */
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem; /* Margin bottom */
+}
+
+.mb-5 {
+    margin-bottom: 3rem; /* Larger margin bottom */
+}
+
+.border {
+    border: 1px solid #ddd; /* Gray border */
+}
+
+.rounded {
+    border-radius: 8px; /* Rounded corners */
+}
+
+.p-3 {
+    padding: 1rem; /* Padding */
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem; /* Margin bottom */
+}
+
+.bg-light {
+    background-color: #fff; /* White background color */
+}
+
+.bg-primary {
+    background-color: #5B7FFF; /* Blue background color */
+    opacity: 0.8; /* Opacity for the background color */
+}
+
+.col-md-6 {
+    width: 50%; /* 50% width for medium screens */
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%; /* Full width for small screens */
+    }
+}
